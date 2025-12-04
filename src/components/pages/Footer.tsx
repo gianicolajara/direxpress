@@ -6,15 +6,19 @@ const Footer = () => {
   return (
     <footer className="w-full h-max p-5 bg-black-app relative">
       <div className="w-full h-full lg:px-25 px-5 py-10 lg:py-16 grid lg:grid-cols-4 lg:grid-rows-1 grid-rows-4 grid-cols-1 place-items-center relative z-20 gap-y-5">
-        <div className="w-36 h-min flex justify-center items-center">
-          <img src="./images/logo-only-letter.png" className="w-full h-full" />
+        <div className="w-36 h-min flex justify-center items-center 2xl:w-48">
+          <img
+            src="./images/logo-only-letter.png"
+            className="w-full h-full"
+            alt="logo direxpress iberica"
+          />
         </div>
         <div className="w-max">
           <ul className="w-full flex flex-col gap-y-2 text-center lg:text-left">
             <li>
               <a
                 href="#"
-                className="font-bold font-cabin hover:underline text-white hover:text-red-app transition-all"
+                className="font-bold font-cabin hover:underline text-white hover:text-red-app 2xl:text-xl transition-all"
               >
                 Inicio
               </a>
@@ -22,7 +26,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app font-bold"
+                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
               >
                 Sobre Nosotros
               </a>
@@ -30,7 +34,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app font-bold"
+                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
               >
                 Nuestros Valores
               </a>
@@ -38,7 +42,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app font-bold"
+                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
               >
                 Nuestros Servicios
               </a>
@@ -46,7 +50,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app font-bold"
+                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
               >
                 Envios Nacionales
               </a>
@@ -58,7 +62,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app font-bold"
+                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
               >
                 Servicios Especificos
               </a>
@@ -66,7 +70,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app font-bold"
+                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
               >
                 Envios Internacionales
               </a>
@@ -74,7 +78,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app font-bold"
+                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
               >
                 ¿Por que elegirnos?
               </a>
@@ -82,7 +86,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app font-bold"
+                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
               >
                 Medio Ambiente
               </a>
@@ -90,7 +94,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app font-bold"
+                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
               >
                 Clientes
               </a>

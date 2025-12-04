@@ -18,16 +18,16 @@ const Clients = () => {
     <NormalBackground
       background="./images/clients.jpg"
       alt="Specific Services Direx"
-      className="lg:h-screen! h-full!"
+      className="lg:h-screen! h-full! 2xl:h-full!"
       bgColor="BLUE"
       bgColorPhone="BLUE"
     >
       <div className="flex flex-col">
         <div className="w-full h-full flex flex-col justify-center items-center gap-y-5">
-          <h2 className="text-center font-extrabold text-3xl lg:text-5xl mb-5 font-cabin">
+          <h2 className="text-center font-extrabold text-3xl lg:text-5xl mb-5 font-cabin 2xl:text-7xl">
             <span className="text-white">CLIENTES QUE CONFIAN EN </span>
             <br />
-            <span className="text-red-app">DIREX</span>
+            <span className="text-red-app">DIREXPRESS</span>
           </h2>
           <div className="grid grid-cols-2 grid-rows-5 lg:grid-cols-3 lg:grid-rows-3 gap-3 lg:gap-5">
             {itemsClients.map((item) => (

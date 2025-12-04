@@ -13,7 +13,7 @@ const Specific = () => {
     >
       <div className="w-full h-full flex flex-col justify-center items-center gap-y-10">
         <div className="w-full px-20">
-          <h2 className="text-center font-extrabold text-3xl lg:text-5xl font-cabin">
+          <h2 className="text-center font-extrabold text-3xl lg:text-5xl font-cabin 2xl:text-7xl">
             <span className="text-black-app">SERVICIOS</span>{" "}
             <span className="text-red-app">ESPECIFICOS</span>
           </h2>

@@ -16,18 +16,18 @@ const Enviroment = () => {
             <Leaf size={150} className="text-green-950" />
           </div>
           <div className="w-full h-full flex flex-col gap-y-5">
-            <h2 className="lg:text-left text-center font-extrabold text-3xl lg:text-5xl mb-5 font-cabin">
+            <h2 className="lg:text-left text-center font-extrabold text-3xl lg:text-5xl mb-5 font-cabin 2xl:text-7xl">
               <span className="text-green-950">
                 COMPROMISO CON EL <br /> MEDIO AMBIENTE
               </span>
             </h2>
             <div className="flex flex-col gap-y-2">
-              <p className="text-lg font-roboto-condensed text-green-200 text-center lg:text-left">
+              <p className="text-lg font-roboto-condensed text-green-200 text-center lg:text-left 2xl:text-2xl">
                 En nuestra empresa, estamos comprometidos con el medio
                 medioambiente y nos esforzamos por minimizar nuestro impacto
                 ambiental en todas nuestras operaciones.
               </p>
-              <p className="text-lg font-roboto-condensed text-green-200 text-center lg:text-left">
+              <p className="text-lg font-roboto-condensed text-green-200 text-center lg:text-left 2xl:text-2xl">
                 Creemos que es importe hacer nuestra parte para proteger el
                 planeta y estamos comprometidos en seguir mejorando nuestras
                 prácticas sostenibles en el futuro.

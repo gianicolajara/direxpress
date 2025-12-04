@@ -50,21 +50,21 @@ const Heroe = () => {
               <strong>Whatsapp:</strong> 679482245
             </p>
             <p>
-              <strong>Direccion: </strong>Calle Reina Mercedes, 1, 28020, Madrid
+              <strong>Direccion: </strong>Calle Reina Mercedes, 1, Madrid
             </p>
           </address>
         </div>
       </aside>
       <NormalBackground
-        background="./images/hover.jpg"
+        background=""
         bgConfig="!bg-left"
         alt="heroe direx"
-        className=""
+        className="bg-blue-app! 2xl:pt-10!"
         classNameChildren="pt-5!"
       >
-        <div className="relative flex flex-col items-center w-full h-full max-w-5xl z-20">
+        <div className="relative flex flex-col items-center w-full h-full max-w-5xl 2xl:max-w-[1300px] z-20">
           <nav className="w-full h-16 flex justify-between items-center z-30 p-2 self-start">
-            <div className="h-7">
+            <div className="h-7 lg:h-8 xl:h-10 2xl:h-15">
               <img src="/images/logo.png" className="w-full h-full" />
             </div>
             <Button
@@ -77,15 +77,15 @@ const Heroe = () => {
               <div className="w-full flex gap-x-2 pr-2">
                 <div className="flex gap-x-1">
                   <MapPin color="red" />
-                  <p className="text-white font-roboto-condensed text-sm">
-                    Calle Reina Mercedes, 1, 28020, Madrid
+                  <p className="text-white font-roboto-condensed text-sm lg:text-lg 2xl:text-xl">
+                    Calle Reina Mercedes, 1, Madrid
                   </p>
                 </div>
                 <p className="h-full w-0.5 border-l-2 border-white"></p>
                 <div className="flex gap-x-1">
                   <Phone color="red" />
-                  <p className="text-white font-roboto-condensed text-sm">
-                    915719797 / 679482245
+                  <p className="text-white font-roboto-condensed text-sm lg:text-lg 2xl:text-xl">
+                    915719797 | 679482245
                   </p>
                 </div>
               </div>
@@ -101,7 +101,7 @@ const Heroe = () => {
             <div className="flex flex-col gap-y-10">
               <div className="flex flex-col gap-y-5 lg:gap-0">
                 <img src="/images/big-logo.png" />
-                <p className="font-cabin font-bold text-white text-xl lg:text-2xl text-center">
+                <p className="font-cabin font-bold text-white text-center text-lg lg:text-xl xl:text-4xl">
                   AVANZAMOS JUNTOS
                 </p>
               </div>
@@ -119,7 +119,7 @@ const Heroe = () => {
           <div className="w-full h-min flex justify-center items-center">
             <div>
               <div className="w-full h-min flex gap-x-2 self-start items-center justify-center">
-                <div className="w-12 h-12 hover:bg-black-app/30 p-2 rounded-lg cursor-pointer shrink-0">
+                <div className="w-12 h-12 xl:w-16 xl:h-16 hover:bg-black-app/30 p-2 rounded-lg cursor-pointer shrink-0">
                   <a
                     href="https://www.instagram.com/direxpressiberica/"
                     target="_blank"
@@ -127,17 +127,17 @@ const Heroe = () => {
                     <InstagramIcon color="white" />
                   </a>
                 </div>
-                <div className="w-12 h-12 hover:bg-black-app/30 p-2 rounded-lg cursor-pointer shrink-0">
+                <div className="w-12 h-12 xl:w-16 xl:h-16 hover:bg-black-app/30 p-2 rounded-lg cursor-pointer shrink-0">
                   <a href="https://wa.link/cdb5pn" target="_blank">
                     <WhatsappIcon color="white" />
                   </a>
                 </div>
-                <div className="w-12 h-12 hover:bg-black-app/30 p-2 rounded-lg cursor-pointer shrink-0">
+                <div className="w-12 h-12 xl:w-16 xl:h-16 hover:bg-black-app/30 p-2 rounded-lg cursor-pointer shrink-0">
                   <a href="mailto:info@direxiberica.com" target="_blank">
                     <Mail color="white" className="w-full h-full" />
                   </a>
                 </div>
-                <div className="w-12 h-12 hover:bg-black-app/30 p-2 rounded-lg cursor-pointer shrink-0">
+                <div className="w-12 h-12 xl:w-16 xl:h-16 hover:bg-black-app/30 p-2 rounded-lg cursor-pointer shrink-0">
                   <a href="tel:+36915719797">
                     <Phone color="white" className="w-full h-full" />
                   </a>

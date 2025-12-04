@@ -41,19 +41,19 @@ const NormalBackground = ({
   const classNamesBg = cn(bgConfig, "w-full h-full absolute z-10 object-cover");
   const classNamesColor = cn(
     {
-      "lg:bg-blue-app/90": bgColor === "BLUE",
+      "lg:bg-blue-app/80": bgColor === "BLUE",
       "lg:bg-transparent": bgColor === "TRANSPARENT",
       "lg:bg-green-800/60": bgColor === "GREEN",
       "lg:bg-red-app/90": bgColor === "RED",
       "lg:bg-black-app/90": bgColor === "BLACK",
 
-      "bg-blue-app/90": bgColorPhone === "BLUE",
+      "bg-blue-app/80": bgColorPhone === "BLUE",
       "bg-transparent": bgColorPhone === "TRANSPARENT",
       "bg-green-800/60": bgColorPhone === "GREEN",
       "bg-red-app/90": bgColorPhone === "RED",
       "bg-black-app/90": bgColorPhone === "BLACK",
     },
-    "w-full h-full absolute z-20"
+    "w-full h-full absolute z-20 top-0 bottom-0"
   );
 
   return (

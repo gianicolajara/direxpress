@@ -33,22 +33,22 @@ const Choose = () => {
     <section className="w-full h-full bg-gray-200">
       <div className="w-full h-full">
         <div className="w-full h-full flex flex-col gap-y-5 lg:px-25 py-20 justify-center px-5 lg:order-1 order-1">
-          <h2 className="text-center font-extrabold text-3xl lg:text-5xl mb-5 font-cabin">
+          <h2 className="text-center font-extrabold text-3xl lg:text-5xl mb-5 font-cabin 2xl:text-7xl">
             <span className="text-black-app">¿POR QUE ELEGIR </span>
-            <span className="text-blue-app">DIREX</span>
+            <span className="text-blue-app">DIREXPRESS</span>
             <span className="text-black-app">?</span>
           </h2>
           <div className="grid lg:grid-cols-4 lg:grid-rows-1 grid-cols-1 grid-rows-4 gap-5">
             {itemsChoose.map((item) => (
               <article
-                className="w-full h-full shadow-lg p-5 flex flex-col gap-y-4 justify-center items-center bg-white rounded-lg"
+                className="w-full h-full shadow-lg p-5 flex flex-col gap-y-10 justify-center items-center bg-white rounded-lg"
                 key={item.title}
               >
-                <item.icon className="text-blue-app" size={50} />
-                <h3 className="text-xl text-center font-roboto-condensed text-black-app font-bold">
+                <item.icon className="text-blue-app" size={75} />
+                <h3 className="text-xl text-center font-roboto-condensed text-black-app font-bold 2xl:text-4xl">
                   {item.title}
                 </h3>
-                <p className="font-roboto-condensed text-lg text-black-app text-center">
+                <p className="font-roboto-condensed text-lg text-black-app text-center 2xl:text-2xl">
                   {item.content}
                 </p>
                 <Button color="BLUE" href="https://wa.link/cdb5pn">

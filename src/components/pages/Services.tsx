@@ -7,16 +7,16 @@ const Services = () => {
     <NormalBackground
       background=""
       alt="values direx"
-      className="lg:h-screen! h-full! bg-gray-200"
+      className="lg:h-screen! h-full! 2xl:h-full! bg-gray-200"
       bgColor="TRANSPARENT"
       bgColorPhone="TRANSPARENT"
     >
       <div className="w-full h-full flex flex-col gap-y-4 justify-center">
-        <h2 className="font-extrabold text-3xl lg:text-5xl lg:px-20 text-center font-cabin">
+        <h2 className="font-extrabold text-3xl lg:text-5xl lg:px-20 2xl:text-7xl text-center font-cabin">
           <span className="text-black-app">NUESTROS</span>{" "}
           <span className="text-blue-app">SERVICIOS</span>
         </h2>
-        <p className="font-roboto-condensed text-lg text-center text-gray-800 lg:px-20 mb-5">
+        <p className="font-roboto-condensed text-lg text-center text-gray-800 lg:px-20 mb-5 2xl:text-2xl">
           Ofrecemos una amplia gama de servicios de mensajería y paquetería,
           asegurando que nuestros clientes tengan acceso a una gran variedad de
           opciones de entrega para satisfacer sus necesidades.
@@ -25,10 +25,10 @@ const Services = () => {
           <div className="w-full h-full flex justify-center items-center flex-col gap-y-5 border-2 border-gray-300 rounded-lg min-h-[300px] bg-white shadow-lg">
             <MapIcon size={85} className="text-blue-app" />
             <div className="w-full flex flex-col gap-y-1">
-              <h3 className="text-black-app font-bold font-roboto-condensed text-xl text-center">
+              <h3 className="text-black-app font-bold font-roboto-condensed text-xl text-center 2xl:text-4xl">
                 ENVÍOS NACIONALES
               </h3>
-              <p className="text-center font-roboto-condensed text-gray-600">
+              <p className="text-center font-roboto-condensed text-gray-600 2xl:text-2xl">
                 Covertura nacional completa
               </p>
             </div>
@@ -36,10 +36,10 @@ const Services = () => {
           <div className="w-full h-full flex justify-center items-center flex-col gap-y-5 border-2 border-gray-300 rounded-lg min-h-[300px] bg-white shadow-lg">
             <Earth size={85} className="text-blue-app" />
             <div className="w-full flex flex-col gap-y-1">
-              <h3 className="text-black-app font-bold font-roboto-condensed text-xl text-center">
+              <h3 className="text-black-app font-bold font-roboto-condensed text-xl text-center 2xl:text-4xl">
                 ENVÍOS INTERNACIONALES
               </h3>
-              <p className="text-center font-roboto-condensed text-gray-600">
+              <p className="text-center font-roboto-condensed text-gray-600 2xl:text-2xl">
                 Covertura internacional asegurada
               </p>
             </div>
@@ -47,10 +47,10 @@ const Services = () => {
           <div className="w-full h-full flex justify-center items-center flex-col gap-y-5 border-2 border-gray-300 rounded-lg min-h-[300px] bg-white shadow-lg">
             <Cog size={85} className="text-blue-app" />
             <div className="w-full flex flex-col gap-y-1">
-              <h3 className="text-black-app font-bold font-roboto-condensed text-xl text-center">
+              <h3 className="text-black-app font-bold font-roboto-condensed text-xl text-center 2xl:text-4xl">
                 ASESORAMIENTO Y SOLUCIONES PERSONALIZADAS
               </h3>
-              <p className="text-center font-roboto-condensed text-gray-600">
+              <p className="text-center font-roboto-condensed text-gray-600 2xl:text-2xl">
                 Con los mejores profesionales
               </p>
             </div>
