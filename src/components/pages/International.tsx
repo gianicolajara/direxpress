@@ -30,7 +30,7 @@ const International = () => {
               {itemsEnviosInternacionales.map((item) => (
                 <li className="flex items-center gap-x-3 " key={item}>
                   <CircleCheckBig className="text-red-app shrink-0" />
-                  <span className="break-all font-roboto-condensed text-lg font-bold text-white text-center 2xl:text-2xl">
+                  <span className="font-roboto-condensed text-lg font-bold text-white text-center 2xl:text-2xl w-max">
                     {item}
                   </span>
                 </li>
