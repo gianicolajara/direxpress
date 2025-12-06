@@ -132,7 +132,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-full absolute top-0 bottom-0 left-0 right-0 bg-[url('./images/logo-only-letter-black.png')] bg-no-repeat bg-cover bg-center z-10 opacity-30"></div>
+      <div className="w-full h-full absolute top-0 bottom-0 left-0 right-0 bg-[url('/images/logo-only-letter-black.png')] bg-no-repeat bg-cover bg-center z-10 opacity-30"></div>
     </footer>
   );
 };
