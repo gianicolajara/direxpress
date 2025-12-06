@@ -2,7 +2,10 @@ import Button from "../shared/Button";
 
 const About = () => {
   return (
-    <section className="grid-cols-1 grid-rows-[300px_1fr] grid lg:grid-cols-2 lg:grid-rows-1 lg:h-screen w-full 2xl:h-full lg:px-25 lg:py-20 gap-x-10">
+    <section
+      className="grid-cols-1 grid-rows-[300px_1fr] grid lg:grid-cols-2 lg:grid-rows-1 lg:h-screen w-full 2xl:h-full lg:px-25 lg:py-20 gap-x-10"
+      id="about"
+    >
       <div className="w-full h-full flex justify-center items-center order-2 lg:order-1 py-20 px-5 lg:py-0 lg:px-0">
         <div className="w-full flex justify-center flex-col gap-y-15">
           <h2 className="text-center lg:text-left font-extrabold text-3xl lg:text-5xl 2xl:text-7xl font-cabin">

@@ -9,6 +9,7 @@ const Enviroment = () => {
       className="lg:h-full! h-full! bg-green-700"
       bgColor="TRANSPARENT"
       bgColorPhone="TRANSPARENT"
+      id="enviroment"
     >
       <div className="w-full h-full lg:px-20 flex flex-col justify-center items-center gap-y-5">
         <div className="w-full h-full grid gid-cols-1 grid-rows-[repeat(3_auto)] lg:grid-cols-[1fr_3fr] lg:grid-rows-1">

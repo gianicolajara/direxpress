@@ -14,6 +14,7 @@ type Props = {
   bgColor?: Colors;
   bgColorPhone?: Colors;
   alt: string;
+  id?: string;
 };
 
 const NormalBackground = ({
@@ -26,6 +27,7 @@ const NormalBackground = ({
   bgColorPhone = "BLUE",
   alt,
   classNameChildren,
+  id,
 }: Props) => {
   const mediaPhone = useMediaQuery("(width < 64rem)");
 
@@ -57,7 +59,7 @@ const NormalBackground = ({
   );
 
   return (
-    <section className={classNames}>
+    <section className={classNames} id={id}>
       <div className={classNamesColor}></div>
       {background && (
         <img

@@ -1,6 +1,29 @@
-import { Mail, Phone } from "lucide-react";
-import InstagramIcon from "../shared/Icons/Instagram";
-import WhatsappIcon from "../shared/Icons/Whatasapp";
+import { FaWhatsapp } from "react-icons/fa";
+import { FiInstagram, FiMail, FiPhone } from "react-icons/fi";
+import IconLink from "../shared/IconLink";
+
+const networkLinks = [
+  {
+    href: "https://www.instagram.com/direxpressiberica/",
+    icon: FiInstagram,
+    id: 1,
+  },
+  {
+    href: "https://wa.link/cdb5pn",
+    icon: FaWhatsapp,
+    id: 2,
+  },
+  {
+    href: "mailto:info@direxiberica.com",
+    icon: FiMail,
+    id: 3,
+  },
+  {
+    href: "tel:+36915719797",
+    icon: FiPhone,
+    id: 4,
+  },
+];
 
 const Footer = () => {
   return (
@@ -17,15 +40,7 @@ const Footer = () => {
           <ul className="w-full flex flex-col gap-y-2 text-center lg:text-left">
             <li>
               <a
-                href="#"
-                className=" font-cabin  text-white hover:text-red-app 2xl:text-xl"
-              >
-                Inicio
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
+                href="#about"
                 className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Sobre Nosotros
@@ -33,7 +48,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#values"
                 className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Nuestros Valores
@@ -41,7 +56,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#services"
                 className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Nuestros Servicios
@@ -49,10 +64,18 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#national"
                 className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Envios Nacionales
+              </a>
+            </li>
+            <li>
+              <a
+                href="#specific"
+                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
+              >
+                Servicios Especificos
               </a>
             </li>
           </ul>
@@ -61,15 +84,7 @@ const Footer = () => {
           <ul className="w-full flex flex-col gap-y-2 text-center lg:text-left">
             <li>
               <a
-                href="#"
-                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
-              >
-                Servicios Especificos
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
+                href="#international"
                 className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Envios Internacionales
@@ -77,7 +92,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#choose"
                 className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 ¿Por que elegirnos?
@@ -85,7 +100,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#enviroment"
                 className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Medio Ambiente
@@ -93,7 +108,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#clients"
                 className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Clientes
@@ -104,29 +119,15 @@ const Footer = () => {
         <div className="w-full h-min flex justify-center items-center">
           <div>
             <div className="w-full h-min flex gap-x-2 self-start items-center justify-center">
-              <div className="w-12 h-12 hover:bg-red-app/30 p-2 rounded-lg cursor-pointer shrink-0">
-                <a
-                  href="https://www.instagram.com/direxpressiberica/"
-                  target="_blank"
-                >
-                  <InstagramIcon color="white" />
-                </a>
-              </div>
-              <div className="w-12 h-12 hover:bg-red-app/30 p-2 rounded-lg cursor-pointer shrink-0">
-                <a href="https://wa.link/cdb5pn" target="_blank">
-                  <WhatsappIcon color="white" />
-                </a>
-              </div>
-              <div className="w-12 h-12 hover:bg-red-app/30 p-2 rounded-lg cursor-pointer shrink-0">
-                <a href="mailto:info@direxiberica.com" target="_blank">
-                  <Mail color="white" className="w-full h-full" />
-                </a>
-              </div>
-              <div className="w-12 h-12 hover:bg-red-app/30 p-2 rounded-lg cursor-pointer shrink-0">
-                <a href="tel:+36915719797">
-                  <Phone color="white" className="w-full h-full" />
-                </a>
-              </div>
+              {networkLinks.map((item) => (
+                <IconLink
+                  key={item.id}
+                  Icon={item.icon}
+                  color="white"
+                  href={item.href}
+                  hoverColor="red"
+                />
+              ))}
             </div>
           </div>
         </div>

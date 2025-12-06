@@ -7,6 +7,7 @@ const Values = () => {
       background="./images/values.jpg"
       alt="values direx"
       className="lg:h-screen! h-full! xl:h-full!"
+      id="values"
     >
       <div className="w-full h-full flex flex-col">
         <h2 className="font-extrabold text-3xl lg:text-5xl 2xl:text-7xl text-center font-cabin mb-10">

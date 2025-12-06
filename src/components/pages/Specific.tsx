@@ -10,6 +10,7 @@ const Specific = () => {
       className="lg:h-full! h-full! bg-gray-200"
       bgColor="TRANSPARENT"
       bgColorPhone="TRANSPARENT"
+      id="specific"
     >
       <div className="w-full h-full flex flex-col justify-center items-center gap-y-10">
         <div className="w-full px-20">

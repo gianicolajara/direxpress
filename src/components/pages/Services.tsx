@@ -10,6 +10,7 @@ const Services = () => {
       className="lg:h-screen! h-full! 2xl:h-full! bg-gray-200"
       bgColor="TRANSPARENT"
       bgColorPhone="TRANSPARENT"
+      id="services"
     >
       <div className="w-full h-full flex flex-col gap-y-4 justify-center">
         <h2 className="font-extrabold text-3xl lg:text-5xl lg:px-20 2xl:text-7xl text-center font-cabin">

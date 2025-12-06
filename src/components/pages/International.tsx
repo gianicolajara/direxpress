@@ -10,7 +10,10 @@ const itemsEnviosInternacionales = [
 
 const International = () => {
   return (
-    <section className="grid-cols-1 grid-rows-[300px_1fr] grid lg:grid-cols-2 lg:grid-rows-1 h-full lg:px-25 lg:py-20 gap-x-10">
+    <section
+      className="grid-cols-1 grid-rows-[300px_1fr] grid lg:grid-cols-2 lg:grid-rows-1 h-full lg:px-25 lg:py-20 gap-x-10"
+      id="international"
+    >
       <div className="w-full h-full flex justify-center items-center py-20 px-5 lg:py-0 lg:px-0 order-2">
         <div className="w-full h-full flex flex-col gap-y-5 lg:pr-25 lg:py-20 justify-center px-5 order-2 lg:pl-10">
           <h2 className="text-center lg:text-left font-extrabold text-3xl lg:text-5xl 2xl:text-7xl font-cabin">

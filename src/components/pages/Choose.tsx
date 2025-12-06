@@ -30,7 +30,7 @@ const itemsChoose = [
 
 const Choose = () => {
   return (
-    <section className="w-full h-full bg-gray-200">
+    <section className="w-full h-full bg-gray-200" id="choose">
       <div className="w-full h-full">
         <div className="w-full h-full flex flex-col gap-y-5 lg:px-25 py-20 justify-center px-5 lg:order-1 order-1">
           <h2 className="text-center font-extrabold text-3xl lg:text-5xl mb-5 font-cabin 2xl:text-7xl">
