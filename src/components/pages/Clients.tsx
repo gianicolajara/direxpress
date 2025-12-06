@@ -16,8 +16,8 @@ const itemsClients = [
 const Clients = () => {
   return (
     <section className="grid-cols-1 grid-rows-[300px_1fr] grid lg:grid-cols-2 lg:grid-rows-1 h-full lg:px-25 lg:py-20 gap-x-10">
-      <div className="w-full h-full flex justify-center items-center order-2 lg:order-1 py-20 px-5 lg:py-0 lg:px-0">
-        <div className="w-full h-full flex flex-col gap-y-5 lg:pr-25 lg:py-20 justify-center px-5 lg:order-1 order-2 lg:pl-10">
+      <div className="w-full h-full flex justify-center items-center py-20 px-5 lg:py-0 lg:px-0 lg:order-1 order-2">
+        <div className="w-full h-full flex flex-col gap-y-5 lg:pr-25 lg:py-20 justify-center px-5 lg:pl-10">
           <h2 className="text-center lg:text-left font-extrabold text-3xl lg:text-5xl 2xl:text-7xl font-cabin">
             <span className="text-black-app">CLIENTES QUE CONFIAN EN</span>{" "}
             <br />
@@ -50,7 +50,7 @@ const Clients = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-full flex justify-center items-center order-1 lg:order-2">
+      <div className="w-full h-full flex justify-center items-center lg:order-2 order-1">
         <div className="w-full h-full 2xl:w-[750px] 2xl:h-[850px] lg:rounded-4xl overflow-hidden bg-[url('/images/clients.jpg')] bg-position-[42%_center] 2xl:bg-position-[36%_center] bg-cover bg-no-repeat shadow-lg"></div>
       </div>
     </section>

@@ -10,7 +10,7 @@ type Props = {
 
 const ItemSpecificService = ({ content, subTitle, Icon }: Props) => {
   return (
-    <article className="w-full h-full bg-white rounded-lg p-5 flex flex-col gap-y-2 justify-between items-center shadow-lg 2xl:gap-y-10">
+    <article className="w-full h-full bg-white rounded-lg p-4 flex flex-col gap-y-2 justify-between items-center shadow-lg 2xl:gap-y-10">
       <Icon size={75} className="text-red-app" />
 
       <h4 className="font-roboto-condensed font-bold text-xl text-black-app 2xl:text-4xl">

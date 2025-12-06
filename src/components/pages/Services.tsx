@@ -22,7 +22,7 @@ const Services = () => {
           opciones de entrega para satisfacer sus necesidades.
         </p>
         <div className="grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 place-items-center justify-items-center gap-5 lg:px-20">
-          <div className="w-full h-full flex justify-center items-center flex-col gap-y-5 border-2 border-gray-300 rounded-lg min-h-[300px] bg-white shadow-lg">
+          <div className="w-full h-full flex justify-center items-center flex-col gap-y-5 border-2 border-gray-300 rounded-lg min-h-[300px] bg-white shadow-lg p-4">
             <MapIcon size={85} className="text-blue-app" />
             <div className="w-full flex flex-col gap-y-1">
               <h3 className="text-black-app font-bold font-roboto-condensed text-xl text-center 2xl:text-4xl">
@@ -33,7 +33,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="w-full h-full flex justify-center items-center flex-col gap-y-5 border-2 border-gray-300 rounded-lg min-h-[300px] bg-white shadow-lg">
+          <div className="w-full h-full flex justify-center items-center flex-col gap-y-5 border-2 border-gray-300 rounded-lg min-h-[300px] bg-white shadow-lg p-4">
             <Earth size={85} className="text-blue-app" />
             <div className="w-full flex flex-col gap-y-1">
               <h3 className="text-black-app font-bold font-roboto-condensed text-xl text-center 2xl:text-4xl">
@@ -44,7 +44,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="w-full h-full flex justify-center items-center flex-col gap-y-5 border-2 border-gray-300 rounded-lg min-h-[300px] bg-white shadow-lg">
+          <div className="w-full h-full flex justify-center items-center flex-col gap-y-5 border-2 border-gray-300 rounded-lg min-h-[300px] bg-white shadow-lg p-4">
             <Cog size={85} className="text-blue-app" />
             <div className="w-full flex flex-col gap-y-1">
               <h3 className="text-black-app font-bold font-roboto-condensed text-xl text-center 2xl:text-4xl">
