@@ -1,5 +1,5 @@
 import { Medal, MessageCircleMore, Phone, Truck } from "lucide-react";
-import Button from "../shared/Button";
+import ItemSpecificService from "../shared/ItemSpecificService";
 
 const itemsChoose = [
   {
@@ -40,21 +40,13 @@ const Choose = () => {
           </h2>
           <div className="grid lg:grid-cols-4 lg:grid-rows-1 grid-cols-1 grid-rows-4 gap-5">
             {itemsChoose.map((item) => (
-              <article
-                className="w-full h-full shadow-lg p-5 flex flex-col gap-y-10 justify-center items-center bg-white rounded-lg"
-                key={item.title}
-              >
-                <item.icon className="text-blue-app" size={75} />
-                <h3 className="text-xl text-center font-roboto-condensed text-black-app font-bold 2xl:text-4xl">
-                  {item.title}
-                </h3>
-                <p className="font-roboto-condensed text-lg text-black-app text-center 2xl:text-2xl">
-                  {item.content}
-                </p>
-                <Button color="BLUE" href="https://wa.link/cdb5pn">
-                  Contactar
-                </Button>
-              </article>
+              <ItemSpecificService
+                Icon={item.icon}
+                title={item.title}
+                subTitle={item.title}
+                content={item.content}
+                color="BLUE"
+              />
             ))}
           </div>
           <div className="w-full h-max"></div>

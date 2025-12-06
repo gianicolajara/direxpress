@@ -21,7 +21,7 @@ const Button = ({
   href,
 }: Props) => {
   const classesNames = cn(
-    "text-white font-bold cursor-pointer hover:bg-green-900 transition-all p-3 font-roboto-condensed px-4 2xl:p-3 2xl:px-3 2xl:text-xl 2xl:text-2xl rounded-full",
+    "text-white font-bold cursor-pointer hover:bg-green-900 transition-all p-3 font-roboto-condensed px-4 2xl:p-3 2xl:px-3 2xl:text-xl 2xl:text-2xl",
     {
       "bg-green-app hover:bg-green-800 text-white-app text-white":
         color === "SUCCESS",
