@@ -10,15 +10,14 @@ const itemsEnviosInternacionales = [
 
 const International = () => {
   return (
-    <section className="w-full lg:h-screen h-full">
-      <div className="w-full h-full grid grid-cols-1 grid-rows-[300px_1fr] lg:grid-cols-2 lg:grid-rows-1">
-        <div className="w-full h-full [background-image:url('/images/cargo-ship.jpg')] bg-no-repeat bg-center bg-cover order-1"></div>
-        <div className="w-full h-full flex flex-col gap-y-5 lg:pr-25 py-20 justify-center px-5 lg:order-1 order-2 bg-blue-app lg:pl-10">
+    <section className="grid-cols-1 grid-rows-[300px_1fr] grid lg:grid-cols-2 lg:grid-rows-1 lg:h-screen w-full 2xl:h-full lg:px-25 lg:py-20 gap-x-10">
+      <div className="w-full h-full flex justify-center items-center order-2 lg:order-1 py-20 px-5 lg:py-0 lg:px-0">
+        <div className="w-full h-full flex flex-col gap-y-5 lg:pr-25 lg:py-20 justify-center px-5 lg:order-1 order-2 lg:pl-10">
           <h2 className="text-center lg:text-left font-extrabold text-3xl lg:text-5xl 2xl:text-7xl font-cabin">
-            <span className="text-white">ENVIOS</span> <br />
+            <span className="text-black-app">ENVIOS</span> <br />
             <span className="text-red-app">INTERNACIONALES</span>
           </h2>
-          <p className="text-lg font-roboto-condensed text-white text-center lg:text-left 2xl:text-2xl">
+          <p className="text-lg font-roboto-condensed text-black-app text-center lg:text-left 2xl:text-2xl">
             Nuestra gama de servicios de transporte para que tus envíos lleguen
             a cualquier parte del mundo.
           </p>
@@ -30,7 +29,7 @@ const International = () => {
               {itemsEnviosInternacionales.map((item) => (
                 <li className="flex items-center gap-x-3 " key={item}>
                   <CircleCheckBig className="text-red-app shrink-0" />
-                  <span className="font-roboto-condensed text-lg font-bold text-white text-center 2xl:text-2xl w-max">
+                  <span className="font-roboto-condensed text-lg font-bold text-black-app text-center 2xl:text-2xl w-max">
                     {item}
                   </span>
                 </li>
@@ -43,6 +42,9 @@ const International = () => {
             </Button>
           </div>
         </div>
+      </div>
+      <div className="w-full h-full flex justify-center items-center order-1 lg:order-2">
+        <div className="w-full h-full 2xl:w-[750px] 2xl:h-[850px] lg:rounded-4xl overflow-hidden bg-[url('/images/cargo-ship.jpg')] bg-position-[42%_center] 2xl:bg-position-[36%_center] bg-cover bg-no-repeat shadow-lg"></div>
       </div>
     </section>
   );

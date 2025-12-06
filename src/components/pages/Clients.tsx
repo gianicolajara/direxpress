@@ -1,5 +1,5 @@
-import { CheckCircleIcon } from "lucide-react";
-import NormalBackground from "../shared/NormalBackground";
+import { CircleCheckBig } from "lucide-react";
+import Button from "../shared/Button";
 
 const itemsClients = [
   "Instituciones publicas",
@@ -15,38 +15,45 @@ const itemsClients = [
 
 const Clients = () => {
   return (
-    <NormalBackground
-      background="./images/clients.jpg"
-      alt="Specific Services Direx"
-      className="lg:h-screen! h-full! 2xl:h-full!"
-      bgColor="BLUE"
-      bgColorPhone="BLUE"
-    >
-      <div className="flex flex-col">
-        <div className="w-full h-full flex flex-col justify-center items-center gap-y-5">
-          <h2 className="text-center font-extrabold text-3xl lg:text-5xl mb-5 font-cabin 2xl:text-7xl">
-            <span className="text-white">CLIENTES QUE CONFIAN EN </span>
+    <section className="grid-cols-1 grid-rows-[300px_1fr] grid lg:grid-cols-2 lg:grid-rows-1 h-full lg:px-25 lg:py-20 gap-x-10">
+      <div className="w-full h-full flex justify-center items-center order-2 lg:order-1 py-20 px-5 lg:py-0 lg:px-0">
+        <div className="w-full h-full flex flex-col gap-y-5 lg:pr-25 lg:py-20 justify-center px-5 lg:order-1 order-2 lg:pl-10">
+          <h2 className="text-center lg:text-left font-extrabold text-3xl lg:text-5xl 2xl:text-7xl font-cabin">
+            <span className="text-black-app">CLIENTES QUE CONFIAN EN</span>{" "}
             <br />
-            <span className="text-red-app">DIREXPRESS</span>
+            <span className="text-blue-app">DIREXPRESS</span>
           </h2>
-          <div className="grid grid-cols-2 grid-rows-5 lg:grid-cols-3 lg:grid-rows-3 gap-3 lg:gap-5">
-            {itemsClients.map((item) => (
-              <div
-                key={item}
-                className="bg-white/50 lg:bg-transparent p-5 rounded-lg flex gap-x-4 justify-center items-center shadow-lg lg:shadow-none"
-              >
-                <div className="shrink-0 hidden lg:flex">
-                  <CheckCircleIcon size={20} className="text-red-app" />
-                </div>
-                <h3 className="text-lg lg:text-3xl font-bold font-roboto-condensed text-black-app lg:text-white-app text-center lg:text-left">
-                  {item}
-                </h3>
-              </div>
-            ))}
+          <p className="text-lg font-roboto-condensed text-black-app text-center lg:text-left 2xl:text-2xl">
+            Somos una de las empresas mas confiable en todo Madrid, desde
+            Instituciones Publicas hasta Empresas Privadas confian en nosotros
+            para enviar su correspondencia desde hace mas de 25 años
+          </p>
+          <div className="w-full h-max">
+            <ul
+              role="list"
+              className="space-y-4 p-6 lg:inline flex justify-center flex-col items-center"
+            >
+              {itemsClients.map((item) => (
+                <li className="flex items-center gap-x-3 " key={item}>
+                  <CircleCheckBig className="text-blue-app shrink-0" />
+                  <span className="font-roboto-condensed text-lg font-bold text-black-app text-center 2xl:text-2xl w-max">
+                    {item}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="w-full lg:text-left text-center">
+            <Button color="BLUE" href="https://wa.link/cdb5pn" className="">
+              Contactanos
+            </Button>
           </div>
         </div>
       </div>
-    </NormalBackground>
+      <div className="w-full h-full flex justify-center items-center order-1 lg:order-2">
+        <div className="w-full h-full 2xl:w-[750px] 2xl:h-[850px] lg:rounded-4xl overflow-hidden bg-[url('/images/clients.jpg')] bg-position-[42%_center] 2xl:bg-position-[36%_center] bg-cover bg-no-repeat shadow-lg"></div>
+      </div>
+    </section>
   );
 };
 

@@ -8,8 +8,8 @@ const Values = () => {
       alt="values direx"
       className="lg:h-screen! h-full! xl:h-full!"
     >
-      <div className="w-full h-full flex flex-col gap-y-4">
-        <h2 className="font-extrabold text-3xl lg:text-5xl 2xl:text-7xl text-center mb-5 font-cabin">
+      <div className="w-full h-full flex flex-col">
+        <h2 className="font-extrabold text-3xl lg:text-5xl 2xl:text-7xl text-center font-cabin mb-10">
           <span className="text-white">NUESTROS</span>{" "}
           <span className="text-red-app">VALORES</span>
           <br />
@@ -18,15 +18,15 @@ const Values = () => {
         <div className="w-full grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 gap-5 lg:px-20 m-auto justify-items-center h-full lg:h-[400px] xl:h-full">
           <CardValues
             imgUrl="./images/values-1.jpg"
-            phrase="PROACTIVIDAD Y EFICIENCIA EN CADA OPERACION"
+            phrase="Proactividad y Eficiencia En Cada Operacion"
           />
           <CardValues
             imgUrl="./images/values-2.jpg"
-            phrase=" NOS ENFOCAMOS EN DAR EL MEJOR SERVICIO"
+            phrase="Nos Enfocamos En Dar el Mejor Servicio"
           />
           <CardValues
             imgUrl="./images/values-3.jpg"
-            phrase="LEALTAD Y COMPROMISO HACIA NUESTROS CLIENTES"
+            phrase="Lealtad y Compromiso Hacia Nuestros Clientes"
           />
         </div>
       </div>

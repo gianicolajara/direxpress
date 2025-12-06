@@ -2,9 +2,9 @@ import Button from "../shared/Button";
 
 const About = () => {
   return (
-    <section className="grid-cols-1 grid-rows-[300px_1fr] grid lg:grid-cols-2 lg:grid-rows-1 lg:h-screen w-full">
-      <div className="w-full h-full flex justify-center items-center order-2 lg:order-1">
-        <div className="w-full flex justify-center flex-col gap-y-15 lg:px-20 px-5 py-20">
+    <section className="grid-cols-1 grid-rows-[300px_1fr] grid lg:grid-cols-2 lg:grid-rows-1 lg:h-screen w-full 2xl:h-full lg:px-25 lg:py-20 gap-x-10">
+      <div className="w-full h-full flex justify-center items-center order-2 lg:order-1 py-20 px-5 lg:py-0 lg:px-0">
+        <div className="w-full flex justify-center flex-col gap-y-15">
           <h2 className="text-center lg:text-left font-extrabold text-3xl lg:text-5xl 2xl:text-7xl font-cabin">
             <span className="lg:text-black-app">SOBRE</span>{" "}
             <span className="text-red-app">DIREXPRESS</span>
@@ -38,7 +38,7 @@ const About = () => {
         </div>
       </div>
       <div className="w-full h-full flex justify-center items-center order-1 lg:order-2">
-        <div className="w-full h-full 2xl:w-[750px] 2xl:h-[850px] 2xl:rounded-4xl overflow-hidden bg-[url('/images/hover.jpg')] bg-position-[42%_center] 2xl:bg-position-[36%_center] bg-cover bg-no-repeat shadow-lg"></div>
+        <div className="w-full h-full 2xl:w-[750px] 2xl:h-[850px] lg:rounded-4xl overflow-hidden bg-[url('/images/hover.jpg')] bg-position-[42%_center] 2xl:bg-position-[36%_center] bg-cover bg-no-repeat shadow-lg"></div>
       </div>
     </section>
   );

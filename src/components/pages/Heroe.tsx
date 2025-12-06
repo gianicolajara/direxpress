@@ -1,10 +1,34 @@
-import { CircleX, Mail, MapPin, Menu, Phone } from "lucide-react";
+import { CircleX, MapPin, Menu, Phone } from "lucide-react";
 import { useEffect, useState } from "react";
+import { FaWhatsapp } from "react-icons/fa";
+import { FiInstagram, FiMail, FiPhone } from "react-icons/fi";
 import { cn } from "../../lib/utils";
 import Button from "../shared/Button";
-import InstagramIcon from "../shared/Icons/Instagram";
-import WhatsappIcon from "../shared/Icons/Whatasapp";
+import IconLink from "../shared/IconLink";
 import NormalBackground from "../shared/NormalBackground";
+
+const networkLinks = [
+  {
+    href: "https://www.instagram.com/direxpressiberica/",
+    icon: FiInstagram,
+    id: 1,
+  },
+  {
+    href: "https://wa.link/cdb5pn",
+    icon: FaWhatsapp,
+    id: 2,
+  },
+  {
+    href: "mailto:info@direxiberica.com",
+    icon: FiMail,
+    id: 3,
+  },
+  {
+    href: "tel:+36915719797",
+    icon: FiPhone,
+    id: 4,
+  },
+];
 
 const Heroe = () => {
   const [open, setOpen] = useState(false);
@@ -62,6 +86,7 @@ const Heroe = () => {
         className="bg-blue-app! 2xl:pt-10!"
         classNameChildren="pt-5!"
       >
+        <div className="w-full h-full bg-[url('/images/logo-only-letter-black.png')] bg-no-repeat bg-center bg-cover absolute top-0 left-0 z-20 opacity-35"></div>
         <div className="relative flex flex-col items-center w-full h-full max-w-5xl 2xl:max-w-[1300px] z-20">
           <nav className="w-full h-16 flex justify-between items-center z-30 p-2 self-start">
             <div className="h-7 lg:h-8 xl:h-10 2xl:h-15">
@@ -77,14 +102,14 @@ const Heroe = () => {
               <div className="w-full flex gap-x-2 pr-2">
                 <div className="flex gap-x-1">
                   <MapPin color="red" />
-                  <p className="text-white font-roboto-condensed text-sm lg:text-lg 2xl:text-xl">
+                  <p className="text-white font-roboto-condensed text-sm lg:text-base 2xl:text-xl">
                     Calle Reina Mercedes, 1, Madrid
                   </p>
                 </div>
                 <p className="h-full w-0.5 border-l-2 border-white"></p>
                 <div className="flex gap-x-1">
                   <Phone color="red" />
-                  <p className="text-white font-roboto-condensed text-sm lg:text-lg 2xl:text-xl">
+                  <p className="text-white font-roboto-condensed text-sm lg:text-base 2xl:text-xl">
                     915719797 | 679482245
                   </p>
                 </div>
@@ -119,29 +144,14 @@ const Heroe = () => {
           <div className="w-full h-min flex justify-center items-center">
             <div>
               <div className="w-full h-min flex gap-x-2 self-start items-center justify-center">
-                <div className="w-12 h-12 xl:w-16 xl:h-16 hover:bg-black-app/30 p-2 rounded-lg cursor-pointer shrink-0">
-                  <a
-                    href="https://www.instagram.com/direxpressiberica/"
-                    target="_blank"
-                  >
-                    <InstagramIcon color="white" />
-                  </a>
-                </div>
-                <div className="w-12 h-12 xl:w-16 xl:h-16 hover:bg-black-app/30 p-2 rounded-lg cursor-pointer shrink-0">
-                  <a href="https://wa.link/cdb5pn" target="_blank">
-                    <WhatsappIcon color="white" />
-                  </a>
-                </div>
-                <div className="w-12 h-12 xl:w-16 xl:h-16 hover:bg-black-app/30 p-2 rounded-lg cursor-pointer shrink-0">
-                  <a href="mailto:info@direxiberica.com" target="_blank">
-                    <Mail color="white" className="w-full h-full" />
-                  </a>
-                </div>
-                <div className="w-12 h-12 xl:w-16 xl:h-16 hover:bg-black-app/30 p-2 rounded-lg cursor-pointer shrink-0">
-                  <a href="tel:+36915719797">
-                    <Phone color="white" className="w-full h-full" />
-                  </a>
-                </div>
+                {networkLinks.map((item) => (
+                  <IconLink
+                    key={item.id}
+                    Icon={item.icon}
+                    color="white"
+                    href={item.href}
+                  />
+                ))}
               </div>
             </div>
           </div>

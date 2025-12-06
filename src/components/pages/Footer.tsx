@@ -18,7 +18,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-bold font-cabin hover:underline text-white hover:text-red-app 2xl:text-xl transition-all"
+                className=" font-cabin  text-white hover:text-red-app 2xl:text-xl"
               >
                 Inicio
               </a>
@@ -26,7 +26,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
+                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Sobre Nosotros
               </a>
@@ -34,7 +34,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
+                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Nuestros Valores
               </a>
@@ -42,7 +42,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
+                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Nuestros Servicios
               </a>
@@ -50,7 +50,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
+                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Envios Nacionales
               </a>
@@ -62,7 +62,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
+                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Servicios Especificos
               </a>
@@ -70,7 +70,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
+                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Envios Internacionales
               </a>
@@ -78,7 +78,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
+                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 ¿Por que elegirnos?
               </a>
@@ -86,7 +86,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
+                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Medio Ambiente
               </a>
@@ -94,7 +94,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="font-cabin hover:underline text-white hover:text-red-app transition-all 2xl:text-xl font-bold"
+                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
                 Clientes
               </a>
