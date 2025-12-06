@@ -65,7 +65,7 @@ const Heroe = () => {
         <div className="relative flex flex-col items-center w-full h-full max-w-5xl 2xl:max-w-[1300px] z-20">
           <nav className="w-full h-16 flex justify-between items-center z-30 p-2 self-start">
             <div className="h-7 lg:h-8 xl:h-10 2xl:h-15">
-              <img src="/images/logo.png" className="w-full h-full" />
+              <img src="./images/logo.png" className="w-full h-full" />
             </div>
             <Button
               className="w-12 h-12 flex justify-center items-center lg:hidden"
@@ -100,7 +100,7 @@ const Heroe = () => {
           <div className="h-full flex justify-center items-center">
             <div className="flex flex-col gap-y-10">
               <div className="flex flex-col gap-y-5 lg:gap-0">
-                <img src="/images/big-logo.png" />
+                <img src="./images/big-logo.png" />
                 <p className="font-cabin font-bold text-white text-center text-lg lg:text-xl xl:text-4xl">
                   AVANZAMOS JUNTOS
                 </p>
