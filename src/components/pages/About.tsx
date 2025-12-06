@@ -35,7 +35,7 @@ const About = () => {
               color="ERROR"
               className="w-max"
             >
-              Contactanos
+              Contáctanos
             </Button>
           </div>
         </div>

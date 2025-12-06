@@ -16,7 +16,7 @@ const Specific = () => {
         <div className="w-full px-20">
           <h2 className="text-center font-extrabold text-3xl lg:text-5xl font-cabin 2xl:text-7xl">
             <span className="text-black-app">SERVICIOS</span>{" "}
-            <span className="text-red-app">ESPECIFICOS</span>
+            <span className="text-red-app">ESPECÍFICOS</span>
           </h2>
         </div>
         <div className="w-full h-full lg:px-20">
@@ -24,7 +24,7 @@ const Specific = () => {
             <ItemSpecificService
               Icon={Send}
               title="1"
-              subTitle="ENVIOS MASIVOS"
+              subTitle="ENVÍOS MASIVOS"
               content="Servicio para envíos de campañas y/o promociones, acciones publicitarias, marketing directo, etc"
             />
             <ItemSpecificService

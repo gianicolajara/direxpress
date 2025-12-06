@@ -40,7 +40,7 @@ const ItemSpecificService = ({
           href="https://wa.link/cdb5pn"
           className="flex justify-center"
         >
-          Mas Informacion
+          Más Información
         </Button>
       </div>
     </article>

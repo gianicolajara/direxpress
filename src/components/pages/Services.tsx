@@ -59,7 +59,7 @@ const Services = () => {
         </div>
         <div className="w-full lg:px-20 flex justify-center items-center mt-5 h-max">
           <Button color="BLUE" href="https://wa.link/cdb5pn">
-            Contactanos
+            Contáctanos
           </Button>
         </div>
       </div>

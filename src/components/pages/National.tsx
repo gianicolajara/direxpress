@@ -4,10 +4,10 @@ const National = () => {
   return (
     <section className="w-full lg:h-screen lg:max-h-screen" id="national">
       <div className="w-full h-full grid lg:grid-cols-1 lg:grid-rows-2 grid-cols-1 grid-rows-[auto,auto]">
-        <div className="bg-blue-app w-full h-full px-5 lg:px-24 gap-y-5 py-20 flex gap-x-2 flex-col lg:flex-row">
+        <div className="bg-blue-app w-full h-full px-5 lg:px-24 gap-y-5 py-20 flex gap-x-2 flex-col lg:flex-row relative">
           <div className="w-full h-full flex justify-center items-center">
             <h2 className="text-center lg:text-left font-extrabold text-3xl lg:text-5xl font-cabin 2xl:text-7xl">
-              <span className="text-white">ENVIOS</span> <br />
+              <span className="text-white">ENVÍOS</span> <br />
               <span className="text-red-app">NACIONALES</span>
             </h2>
           </div>

@@ -17,11 +17,11 @@ const itemsChoose = [
   {
     title: "FACILIDAD DE CONTACTO",
     content:
-      "Ofrecemos múltiples canales de comunicación como correo electrónico y chat en linea  para atender tus consultas y necesidades",
+      "Ofrecemos múltiples canales de comunicación como correo electrónico y chat en línea  para atender tus consultas y necesidades",
     icon: Phone,
   },
   {
-    title: "EFICIENCIA Y PRECISION",
+    title: "EFICIENCIA Y PRECISIÓN",
     content:
       "Estamos en constante expansión y buscamos establecer alianzas con nuestras empresas para mejorar aun mas nuestra cobertura en territorio nacional e internacional",
     icon: Truck,
@@ -34,7 +34,7 @@ const Choose = () => {
       <div className="w-full h-full">
         <div className="w-full h-full flex flex-col gap-y-5 lg:px-25 py-20 justify-center px-5 lg:order-1 order-1">
           <h2 className="text-center font-extrabold text-3xl lg:text-5xl mb-5 font-cabin 2xl:text-7xl">
-            <span className="text-black-app">¿POR QUE ELEGIR </span>
+            <span className="text-black-app">¿POR QUÉ ELEGIR </span>
             <span className="text-blue-app">DIREXPRESS</span>
             <span className="text-black-app">?</span>
           </h2>

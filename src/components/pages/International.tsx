@@ -5,7 +5,7 @@ const itemsEnviosInternacionales = [
   "Tiempos de Entregas Garantizados",
   "Costes Reducidos",
   "Calidad en el Proceso",
-  "Mercancia Controlada",
+  "Mercancía Controlada",
 ];
 
 const International = () => {
@@ -17,7 +17,7 @@ const International = () => {
       <div className="w-full h-full flex justify-center items-center py-20 px-5 lg:py-0 lg:px-0 order-2">
         <div className="w-full h-full flex flex-col gap-y-5 lg:pr-25 lg:py-20 justify-center px-5 order-2 lg:pl-10">
           <h2 className="text-center lg:text-left font-extrabold text-3xl lg:text-5xl 2xl:text-7xl font-cabin">
-            <span className="text-black-app">ENVIOS</span> <br />
+            <span className="text-black-app">ENVÍOS</span> <br />
             <span className="text-red-app">INTERNACIONALES</span>
           </h2>
           <p className="text-lg font-roboto-condensed text-black-app text-center lg:text-left 2xl:text-2xl">
@@ -41,7 +41,7 @@ const International = () => {
           </div>
           <div className="w-full lg:text-left text-center">
             <Button color="ERROR" href="https://wa.link/cdb5pn" className="">
-              Contactanos
+              Contáctanos
             </Button>
           </div>
         </div>

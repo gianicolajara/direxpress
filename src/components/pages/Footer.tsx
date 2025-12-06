@@ -67,7 +67,7 @@ const Footer = () => {
                 href="#national"
                 className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
-                Envios Nacionales
+                Envíos Nacionales
               </a>
             </li>
             <li>
@@ -75,7 +75,7 @@ const Footer = () => {
                 href="#specific"
                 className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
-                Servicios Especificos
+                Servicios Específicos
               </a>
             </li>
           </ul>
@@ -87,7 +87,7 @@ const Footer = () => {
                 href="#international"
                 className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
-                Envios Internacionales
+                Envíos Internacionales
               </a>
             </li>
             <li>
@@ -95,7 +95,7 @@ const Footer = () => {
                 href="#choose"
                 className="font-cabin text-white hover:text-red-app 2xl:text-xl "
               >
-                ¿Por que elegirnos?
+                ¿Por qué elegirnos?
               </a>
             </li>
             <li>

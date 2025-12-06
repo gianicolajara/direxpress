@@ -27,9 +27,10 @@ const Clients = () => {
             <span className="text-blue-app">DIREXPRESS</span>
           </h2>
           <p className="text-lg font-roboto-condensed text-black-app text-center lg:text-left 2xl:text-2xl">
-            Somos una de las empresas mas confiable en todo Madrid, desde
-            Instituciones Publicas hasta Empresas Privadas confian en nosotros
-            para enviar su correspondencia desde hace mas de 25 años
+            Somos una de las empresas de paquetería más confiables de Madrid.
+            Durante más de 25 años, tanto instituciones públicas como empresas
+            privadas han depositado su confianza en nosotros para gestionar y
+            enviar su correspondencia con seguridad, puntualidad y eficacia.
           </p>
           <div className="w-full h-max">
             <ul
@@ -48,7 +49,7 @@ const Clients = () => {
           </div>
           <div className="w-full lg:text-left text-center">
             <Button color="BLUE" href="https://wa.link/cdb5pn" className="">
-              Contactanos
+              Contáctanos
             </Button>
           </div>
         </div>

@@ -115,7 +115,7 @@ const Heroe = () => {
                 </div>
               </div>
               <Button color="ERROR" href="https://wa.link/cdb5pn">
-                Contactanos
+                Contáctanos
               </Button>
               <Button href="https://maps.app.goo.gl/dr9ZTriD8FAThABZ8">
                 Ubicacion
@@ -132,7 +132,7 @@ const Heroe = () => {
               </div>
               <div className="lg:hidden gap-x-2 justify-center flex">
                 <Button color="ERROR" href="https://wa.link/cdb5pn">
-                  Contactanos
+                  Contáctanos
                 </Button>
                 <Button href="https://maps.app.goo.gl/dr9ZTriD8FAThABZ8">
                   Ubicacion
