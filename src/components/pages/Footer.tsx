@@ -25,6 +25,54 @@ const networkLinks = [
   },
 ];
 
+const navListData = [
+  {
+    id: 1,
+    href: "#about",
+    label: "Sobre Nosotros",
+  },
+  {
+    id: 2,
+    href: "#values",
+    label: "Nuestros Valores",
+  },
+  {
+    id: 3,
+    href: "#services",
+    label: "Nuestros Servicios",
+  },
+  {
+    id: 4,
+    href: "#national",
+    label: "Envíos Nacionales",
+  },
+  {
+    id: 5,
+    href: "#specific",
+    label: "Servicios Específicos",
+  },
+  {
+    id: 6,
+    href: "#international",
+    label: "Envíos Internacionales",
+  },
+  {
+    id: 7,
+    href: "#choose",
+    label: "¿Por qué elegirnos?",
+  },
+  {
+    id: 8,
+    href: "#enviroment",
+    label: "Medio Ambiente",
+  },
+  {
+    id: 9,
+    href: "#clients",
+    label: "Clientes",
+  },
+];
+
 const Footer = () => {
   return (
     <footer className="w-full h-max p-5 bg-black-app relative">
@@ -38,82 +86,30 @@ const Footer = () => {
         </div>
         <div className="w-max">
           <ul className="w-full flex flex-col gap-y-2 text-center lg:text-left">
-            <li>
-              <a
-                href="#about"
-                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
-              >
-                Sobre Nosotros
-              </a>
-            </li>
-            <li>
-              <a
-                href="#values"
-                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
-              >
-                Nuestros Valores
-              </a>
-            </li>
-            <li>
-              <a
-                href="#services"
-                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
-              >
-                Nuestros Servicios
-              </a>
-            </li>
-            <li>
-              <a
-                href="#national"
-                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
-              >
-                Envíos Nacionales
-              </a>
-            </li>
-            <li>
-              <a
-                href="#specific"
-                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
-              >
-                Servicios Específicos
-              </a>
-            </li>
+            {navListData.slice(0, 4).map((item) => (
+              <li key={item.id}>
+                <a
+                  href={item.href}
+                  className="font-cabin text-white hover:text-red-app 2xl:text-xl "
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
         <div className="w-max">
           <ul className="w-full flex flex-col gap-y-2 text-center lg:text-left">
-            <li>
-              <a
-                href="#international"
-                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
-              >
-                Envíos Internacionales
-              </a>
-            </li>
-            <li>
-              <a
-                href="#choose"
-                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
-              >
-                ¿Por qué elegirnos?
-              </a>
-            </li>
-            <li>
-              <a
-                href="#enviroment"
-                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
-              >
-                Medio Ambiente
-              </a>
-            </li>
-            <li>
-              <a
-                href="#clients"
-                className="font-cabin text-white hover:text-red-app 2xl:text-xl "
-              >
-                Clientes
-              </a>
-            </li>
+            {navListData.slice(4, 9).map((item) => (
+              <li key={item.id}>
+                <a
+                  href={item.href}
+                  className="font-cabin text-white hover:text-red-app 2xl:text-xl "
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
         <div className="w-full h-min flex justify-center items-center">

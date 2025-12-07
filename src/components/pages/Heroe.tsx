@@ -30,6 +30,54 @@ const networkLinks = [
   },
 ];
 
+const navListData = [
+  {
+    id: 1,
+    href: "#about",
+    label: "Sobre Nosotros",
+  },
+  {
+    id: 2,
+    href: "#values",
+    label: "Nuestros Valores",
+  },
+  {
+    id: 3,
+    href: "#services",
+    label: "Nuestros Servicios",
+  },
+  {
+    id: 4,
+    href: "#national",
+    label: "Envíos Nacionales",
+  },
+  {
+    id: 5,
+    href: "#specific",
+    label: "Servicios Específicos",
+  },
+  {
+    id: 6,
+    href: "#international",
+    label: "Envíos Internacionales",
+  },
+  {
+    id: 7,
+    href: "#choose",
+    label: "¿Por qué elegirnos?",
+  },
+  {
+    id: 8,
+    href: "#enviroment",
+    label: "Medio Ambiente",
+  },
+  {
+    id: 9,
+    href: "#clients",
+    label: "Clientes",
+  },
+];
+
 const Heroe = () => {
   const [open, setOpen] = useState(false);
 
@@ -63,20 +111,18 @@ const Heroe = () => {
             className="absolute right-0 top-0"
             onClick={() => setOpen(!open)}
           />
-          <address className="flex flex-col gap-y-2 text-white not-italic font-roboto-condensed text-center items-center justify-center text-lg h-full">
-            <p>
-              <strong>Email:</strong> info@direxiberica.com
-            </p>
-            <p>
-              <strong>Telefono:</strong> 915719797
-            </p>
-            <p>
-              <strong>Whatsapp:</strong> 679482245
-            </p>
-            <p>
-              <strong>Direccion: </strong>Calle Reina Mercedes, 1, Madrid
-            </p>
-          </address>
+          <ul className="w-full flex flex-col gap-y-2 text-center h-full justify-center items-center">
+            {navListData.map((item) => (
+              <li key={item.id} onClick={() => setOpen(false)}>
+                <a
+                  href={item.href}
+                  className="font-cabin text-white hover:text-red-app 2xl:text-xl "
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       </aside>
       <NormalBackground
