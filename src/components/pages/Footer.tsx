@@ -31,7 +31,7 @@ const Footer = () => {
       <div className="w-full h-full lg:px-25 px-5 py-10 lg:py-16 grid lg:grid-cols-4 lg:grid-rows-1 grid-rows-4 grid-cols-1 place-items-center relative z-20 gap-y-5">
         <div className="w-36 h-min flex justify-center items-center 2xl:w-48">
           <img
-            src="./images/logo-only-letter.png"
+            src="./images/logo-only-letter.webp"
             className="w-full h-full"
             alt="logo direxpress iberica"
           />
@@ -132,7 +132,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-full absolute top-0 bottom-0 left-0 right-0 bg-[url('/images/logo-only-letter-black.png')] bg-no-repeat bg-cover bg-center z-10 opacity-30"></div>
+      <div className="w-full h-full absolute top-0 bottom-0 left-0 right-0 bg-[url('/images/logo-only-letter-black.webp')] bg-no-repeat bg-cover bg-center z-10 opacity-30"></div>
     </footer>
   );
 };

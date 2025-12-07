@@ -47,7 +47,7 @@ const International = () => {
         </div>
       </div>
       <div className="w-full h-full flex justify-center items-center order-1">
-        <div className="w-full h-full 2xl:w-[750px] 2xl:h-[850px] lg:rounded-4xl overflow-hidden bg-[url('/images/cargo-ship.jpg')] bg-position-[42%_center] 2xl:bg-position-[36%_center] bg-cover bg-no-repeat shadow-lg"></div>
+        <div className="w-full h-full 2xl:w-[750px] 2xl:h-[850px] lg:rounded-4xl overflow-hidden bg-[url('/images/cargo-ship.webp')] bg-position-[42%_center] 2xl:bg-position-[36%_center] bg-cover bg-no-repeat shadow-lg"></div>
       </div>
     </section>
   );

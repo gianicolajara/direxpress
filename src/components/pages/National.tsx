@@ -20,7 +20,7 @@ const National = () => {
             </p>
           </div>
         </div>
-        <div className="bg-gray-200 w-full h-full py-20 p-5 lg:px-24 lg:p-20 bg-cover bg-center bg-no-repeat [background-image:linear-gradient(#00309080,#00309080),url('/images/national-background.jpg')]">
+        <div className="bg-gray-200 w-full h-full py-20 p-5 lg:px-24 lg:p-20 bg-cover bg-center bg-no-repeat [background-image:linear-gradient(#00309080,#00309080),url('/images/national-background.webp')]">
           <div className="w-full h-full grid grid-rows-3 grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-10 gap-y-5">
             <ItemNational title="01" content="DIREX 10 HORAS" />
             <ItemNational title="02" content="DIREX 14 HORAS" />

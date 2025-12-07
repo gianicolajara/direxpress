@@ -4,7 +4,7 @@ import NormalBackground from "../shared/NormalBackground";
 const Values = () => {
   return (
     <NormalBackground
-      background="./images/values.jpg"
+      background="./images/values.webp"
       alt="values direx"
       className="lg:h-screen! h-full! xl:h-full!"
       id="values"
@@ -18,15 +18,15 @@ const Values = () => {
         </h2>
         <div className="w-full grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 gap-5 lg:px-20 m-auto justify-items-center h-full lg:h-[400px] xl:h-full">
           <CardValues
-            imgUrl="./images/values-1.jpg"
+            imgUrl="./images/values-1.webp"
             phrase="Proactividad y Eficiencia En Cada Operacion"
           />
           <CardValues
-            imgUrl="./images/values-2.jpg"
+            imgUrl="./images/values-2.webp"
             phrase="Nos Enfocamos En Dar el Mejor Servicio"
           />
           <CardValues
-            imgUrl="./images/values-3.jpg"
+            imgUrl="./images/values-3.webp"
             phrase="Lealtad y Compromiso Hacia Nuestros Clientes"
           />
         </div>
