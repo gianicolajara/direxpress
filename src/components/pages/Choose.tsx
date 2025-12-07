@@ -41,6 +41,7 @@ const Choose = () => {
           <div className="grid lg:grid-cols-4 lg:grid-rows-1 grid-cols-1 grid-rows-4 gap-5">
             {itemsChoose.map((item) => (
               <ItemSpecificService
+                key={item.title}
                 Icon={item.icon}
                 title={item.title}
                 subTitle={item.title}

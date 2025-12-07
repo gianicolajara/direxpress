@@ -37,6 +37,7 @@ const Enviroment = () => {
           </div>
         </div>
       </div>
+      <div className="absolute top-0 left-0 w-full h-full p-10 bg-[url('/images/logo-only-letter-black-spaced.webp')] bg-size-[auto_100px] bg-repeat -z-10 bg-center opacity-10"></div>
     </NormalBackground>
   );
 };
